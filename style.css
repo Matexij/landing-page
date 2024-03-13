@@ -1,0 +1,147 @@
+* {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+header {
+    background: #1F2937;
+    padding: 20px 220px;
+    color: white;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    align-items: center;
+}
+#logo {
+    color: white;
+    display: inline;
+    font-size: 12px;
+}
+ul {
+    text-decoration: none;
+}
+ul li {
+    color: #cacbcc;
+    font-size: 18px;
+    display: inline;
+    padding: 0px 10px;
+}
+.header-middle {
+    display: flex;
+    align-items: center;
+    padding: 100px 0px;
+    color: #e5e7e5;
+    font-size: 18px;
+}
+.header-middle h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.placeholder {
+    background: #7c7c7c;
+    width: 550px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color:#cecece;
+    font-weight: bold;
+}
+button {
+    padding: 10px 40px;
+    font-size: 18px;
+    background: #3882F6;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.rand-inf {
+    background: white;
+    padding: 100px 220px;
+}
+.rand-inf .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rand-inf .title {
+    font-weight: bolder;
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.rand-inf .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    width: 170px;
+}
+.rand-inf .info .img {
+    border: #3882F6 solid 4px;
+    border-radius: 15px;
+    width: 170px;
+    height: 170px;
+    margin: 10px;
+}
+.rand-inf .info .text {
+ color: #7c7c7c;
+ font-size: 18px;
+ text-align: center;
+}
+
+.quote {
+    background: #e5e7eb;
+    padding: 100px 280px;
+}
+.quote .quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color:#1F2937;
+    text-align: justify;
+}
+.quote .quote-author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.action {
+    background: white;
+    padding: 100px 280px;
+}
+.bluesquare {
+    background: #3882F6;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bluesquare .action-button {
+    border: white 1px solid;
+    border-radius: 5px;
+    color: white;
+    background: #3882F6;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+footer {
+    background: #1F2937;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
