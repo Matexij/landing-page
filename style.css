@@ -5,8 +5,9 @@
 }
 header {
     background: #1F2937;
-    padding: 20px 220px;
     color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .header-top {
     display: flex;
@@ -33,9 +34,10 @@ ul li {
 .header-middle {
     display: flex;
     align-items: center;
-    padding: 100px 0px;
     color: #e5e7e5;
     font-size: 18px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .header-middle h1 {
     font-size: 48px;
@@ -66,12 +68,12 @@ button {
 
 .rand-inf {
     background: white;
-    padding: 100px 220px;
 }
 .rand-inf .row {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 20px;
 }
 .rand-inf .title {
     font-weight: bolder;
@@ -102,7 +104,6 @@ button {
 
 .quote {
     background: #e5e7eb;
-    padding: 100px 280px;
 }
 .quote .quote-text {
     font-size: 36px;
@@ -119,7 +120,6 @@ button {
 
 .action {
     background: white;
-    padding: 100px 280px;
 }
 .bluesquare {
     background: #3882F6;
@@ -137,6 +137,8 @@ button {
     background: #3882F6;
     font-weight: bold;
     padding: 5px 10px;
+    width: 100px;
+    text-align: center;
 }
 
 footer {
@@ -144,4 +146,88 @@ footer {
     color: white;
     padding: 40px;
     text-align: center;
+}
+
+header, footer, section {
+    padding: 100px 250px;
+}
+
+
+@media only screen and (max-width: 968px) {
+    header, footer, section {
+        padding: 50px 50px;
+    }
+    .placeholder {
+        width: 200px;
+        height: 300px;
+        padding: 50px;
+    }
+    .rand-inf .info .img {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+    }
+    .quote .quote-text {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    header, footer, section {
+        padding: 20px 10px;
+    }
+    .header-top {
+        display: block;
+    }
+    nav {        
+        background: #4d4f52;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    #menu {
+        width: 100%;        
+        text-align: right;
+    }
+    .header-middle{
+        flex-direction: column-reverse;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .left h1{
+        font-size: 35px;
+    }
+    .left p{
+        font-size: 16px;
+    }
+    .left {
+        text-align: center;
+    }
+    .placeholder {
+        width: 300px;
+        height: 100px;
+        margin-bottom: 50px;
+    }
+    .rand-inf .row {
+        flex-wrap: wrap;
+    }
+    .rand-inf .info .img {
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+    .quote {
+        padding: 40px;
+    }
+    .quote .quote-text {
+        font-size: 20px;
+    }
+    .quote .quote-author {
+        font-size: 16px;
+    }
+    .bluesquare {
+        padding: 40px 50px;
+    }
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
